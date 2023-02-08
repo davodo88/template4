@@ -4,7 +4,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='border-2 text-black bg-gradient-to-b from-sky-200 to-sky-600
+    <div className=' text-black bg-gradient-to-b from-sky-200 to-sky-600
     w-screen h-screen'>
       <NavBar />
       <section className='border-2 border-black px-4 m-4'>
