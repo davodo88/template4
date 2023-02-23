@@ -6,10 +6,9 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 
 const options = [
-  {id: 'Home', src:"/home"},,
-  {id: 'Info', src:"/home"},,
-  {id: 'Artists', src:"/home"},,
-  {id: 'Buy Tickets', src:"/"},,
+  {id: 'Home', src:"/home"},
+  {id: 'Info', src:"/info"},
+  {id: 'Artists', src:"/artist"},
 ]
 
 
@@ -35,9 +34,9 @@ const NavBar = () => {
       )}
       >
         <button onClick={handleShow}
-          className={classNames("ml-4 w-auto mt-2 text-4xl flex",)}>
+          className={classNames("ml-4 w-10 mt-2 text-4xl flex",)}>
             <FontAwesomeIcon icon={faBars}
-              className={classNames("flex text-black w-[15%] ",
+            className={classNames("flex text-black  ",
                 iconMenu ? "rotate-90" : "")} />
         </button>
         {showMenu && (
@@ -59,7 +58,8 @@ const NavBar = () => {
           {options.map((option, index) => {
             return (
               <li key={index}
-              className="text-2xl uppercase hover:underline underline-offset-8 ">
+              className="text-2xl uppercase hover:underline underline-offset-8 
+              hover:text-purple-500 transition-all text-white">
                 <Link href={option.src}>
                   {option.id}
                 </Link>

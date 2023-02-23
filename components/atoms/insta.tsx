@@ -11,7 +11,7 @@ const Insta = () => {
           <AiOutlineInstagram
             className="w-6 h-6" />
           </a>
-          <span className='hidden group-hover:inline-flex'>
+          <span className='hidden md:group-hover:inline-flex'>
             INSTAGRAM
           </span> 
         </div>

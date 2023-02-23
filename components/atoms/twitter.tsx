@@ -10,7 +10,7 @@ const Twitter = () => {
           <a href="https://www.twitter.com">
             <AiOutlineTwitter className='w-6 h-6 flex'/>
           </a>
-          <span className='hidden group-hover:inline-flex'>
+          <span className='hidden md:group-hover:inline-flex'>
             TWITTER
           </span> 
     </div>

@@ -9,7 +9,7 @@ const Youtube = () => {
           <a href="https://www.youtube.com">
             <AiOutlineYoutube className='w-8 h-6'/>
           </a>
-          <span className='hidden group-hover:inline-flex'>
+          <span className='hidden md:group-hover:inline-flex'>
             YOUTUBE
           </span> 
         </div>
